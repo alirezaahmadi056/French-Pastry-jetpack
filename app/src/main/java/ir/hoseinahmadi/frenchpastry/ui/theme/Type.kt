@@ -1,0 +1,87 @@
+package ir.hoseinahmadi.frenchpastry.ui.theme
+
+import androidx.compose.material3.Typography
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import ir.hoseinahmadi.frenchpastry.R
+
+val font_medium = FontFamily(
+    Font(R.font.iranyekanmedium)
+)
+val font_bold = FontFamily(
+    Font(R.font.iranyekanbold)
+)
+val font_standard = FontFamily(
+    Font(R.font.iranyekan)
+)
+
+
+
+val Typography.body1: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_medium,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
+        lineHeight = 25.sp
+    )
+val Typography.body2: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Light,
+        fontSize = 14.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h1: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 20.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h2: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 18.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h3: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 16.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h4: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 15.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h5: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 14.sp,
+        lineHeight = 25.sp
+    )
+val Typography.h6: TextStyle
+    @Composable
+    get() = TextStyle(
+        fontFamily = font_standard,
+        fontWeight = FontWeight.Medium,
+        fontSize = 12.sp,
+        lineHeight = 25.sp
+    )
